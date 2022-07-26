@@ -1,0 +1,7 @@
+Scaffold-DbContext "Server=.;Database=MyBank;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models/EntityFremework
+
+Scaffold-DbContext "Server=.;Database=MyBank;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models/EntityFremework -force
+
+add-migration
+update-database
+
